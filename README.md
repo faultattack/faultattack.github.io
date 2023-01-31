@@ -1,6 +1,5 @@
 # faultattack.github.io
-Public material and sign-up details for Disobey 2023 Fault Injection Workshop 
+This site will contain public material and sign-up details for Disobey 2023 Fault Injection Workshop 
 
-The material will go public some time mid February. 
+The workshop sign-ups will go live some time early February. The materials are scheduled to be available on the same week as Disobey. 
 
-Teaser binary [glitchy glitch blinky blink](https://faultattack.github.io/glitch_demo.uf2)
