@@ -12,7 +12,7 @@ Workshop Schedule
 
 Sign-up
 ========
-Everybody is able to attend the workshop intro lecture without a sign-up. As long as there is space in the room. 
+Everybody is able to attend the workshop intro lecture without a sign-up. As long as there is space in the room. Hands-on part will have reserved capacity
 Workshop sign-up is intended for those who want to experiment on their own. 
 
 The workshop sign-ups will go live on Monday 6th of February. 
@@ -40,10 +40,13 @@ You will need to bring a laptop, or team up with someone who has a laptop.
 Fashionable accessories to your laptop: 
   - USB-A ports/dongles 
   - spare micro-USB cable 
-   - Development tools you may pre-install 
-cmake, arm-none-eabi-gcc, picoSDK 
-Arduino IDE 
-Disassembler (Cutter.re, Radare2, IDA, Ghidra, Hopper... many possibilities) 
-Stickers 
-None of this is strictly needed.
+  - Stickers with glitter
+
+Development tools you may want to pre-install 
+  - cmake, arm-none-eabi-gcc, picoSDK 
+  - Arduino IDE 
+  - Disassembler 
+(Cutter.re, Radare2, IDA, Ghidra, Hopper... many possibilities) 
+
+
 
