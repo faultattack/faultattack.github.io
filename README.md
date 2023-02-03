@@ -13,21 +13,24 @@ Workshop Schedule
 Sign-up
 ========
 Everybody is able to attend the workshop intro lecture without a sign-up. As long as there is space in the room. Hands-on part will have reserved capacity
-Workshop sign-up is intended for those who want to experiment on their own. 
+Workshop sign-up is intended for those who want to attends the hands-on part. 
 
 The workshop sign-ups will go live on Monday 6th of February. 
 
+
+Workshop material package
+---------------------------
 We want people to continue experimenting after the conference, hence, we built an affordable workshop package for some of the participants to take home. 
 We have 7 packages available and will fill the workshop pre-reserved seats starting from those who commit to attending with an advance purchase. 
 
-What is included in the workshop material package
--------------------------------------------------
+We are not in this to make a profit (just to smash stacks). We are offering the workshop materials package for 82€. 
 
+The package includes: 
   - PicoEMP (picoemp.com) kit fully assembled and ready to use. (77 € at cost price)
   - Raspberry Pi Pico (about 5€) 
   - Disobey 2017 badge as a practice target (priceless) 
+All this should be cheaper than what you can get on your own. 
 
-The price of PicoEMP alone with customs and shipping exceeds 100€. 
 
 Extra notes for Attendees 
 =========================
