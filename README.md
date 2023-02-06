@@ -1,5 +1,13 @@
 # faultattack.github.io
-This site contains the advance material and sign-up details for Disobey 2023 Fault Injection Workshop 
+Here we have the advance material and sign-up details for Disobey 2023 Fault Injection Workshop 
+
+Sign-up
+========
+Everybody is welcome to attend the workshop intro lecture without a sign-up. At least as long as there is space in the room. Hands-on part will have reserved capacity.
+Workshop sign-up is intended for those who attend the hands-on part. 
+
+Sign-up here: 
+https://forms.gle/WzM24NyyukFYqt8G6
 
 Workshop Schedule 
 ==================
@@ -9,14 +17,6 @@ Workshop Schedule
      - Methodology to exploit 
   - Short Q&A 
   - Hands-on session start
-
-Sign-up
-========
-Everybody is able to attend the workshop intro lecture without a sign-up. As long as there is space in the room. Hands-on part will have reserved capacity
-Workshop sign-up is intended for those who want to attends the hands-on part. 
-
-The workshop sign-ups will go live on Monday 6th of February. 
-
 
 Workshop material package
 ---------------------------
