@@ -52,6 +52,7 @@ Development tools you may want to pre-install
   - Arduino IDE 
   - Disassembler 
 (Cutter.re, Radare2, IDA, Ghidra, Hopper... many possibilities) 
-
+  - Putty or some other command line for USB tty  
+  - pwntools or USBSerial for python 
 
 
