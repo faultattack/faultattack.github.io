@@ -7,7 +7,9 @@ Everybody is welcome to attend the workshop intro lecture without a sign-up. At 
 Workshop sign-up is intended for those who attend the hands-on part. 
 
 Sign-up here: 
-https://forms.gle/WzM24NyyukFYqt8G6
+[https://forms.gle/WzM24NyyukFYqt8G6](https://forms.gle/WzM24NyyukFYqt8G6)
+
+The hands-on part of the workshop has been created for people who are beginners with fault injection attacks. If you have more experience you're welcome to join and show us your tricks :). We expect that the participants to have at least some experience with embedded programming. 
 
 Workshop Schedule 
 ==================
