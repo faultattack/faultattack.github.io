@@ -29,12 +29,12 @@ There are multiple possibilities for fault injection in this binary:
     - Memory loads & stores 
     - Random corruption / function fall through 
 
-Inspecting the source may give you some idea where to attack 
+Inspecting the source may give you some idea where to attack. Not all of the obvious looking stuff in the c-source can be attacked successfully. Best is to look into the elf with IDA/Ghidra. 
 
 Fault Model Construction 
 ========================
 
-There is also a binary called glitch_detect, which runs loops and tries to detect abnormal behavior. You can use this with your glitch spots to find-out the ways you can affect the target. 
+There is also a binary called glitch_detect. It runs loops and tries to detect abnormal behavior. It reports findings every now and then, until it hangs. You can use this with your glitch spots to find-out the ways you can affect the target. 
 
 
 
