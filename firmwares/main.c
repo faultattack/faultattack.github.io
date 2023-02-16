@@ -165,6 +165,7 @@ bool __attribute__ ((noinline)) baby_flag() {
 bool __attribute__ ((noinline)) narnia_flag() {
     printf("flag{w1tch3s_g3t_gl1tches_l10ns_b34m_ion5}\r\n");
 }
+<<<<<<< HEAD
 void cheat_io() {
    
     // Indicate that SW has been loaded  
@@ -174,6 +175,11 @@ void cheat_io() {
 
 bool handle_command(char *command) {
     cheat_io();
+=======
+
+
+bool handle_command(char *command) {
+>>>>>>> d7b315e0f677a75776681399273dfd3ec7f25ca9
     switch (*command) {
 
 
@@ -191,11 +197,24 @@ bool handle_command(char *command) {
 
 }
 
+<<<<<<< HEAD
 
 int main() {
     
     gpio_init(0);
     gpio_set_dir(0,GPIO_OUT);
+=======
+void cheat_io() {
+    gpio_init(0);
+    gpio_set_dir(0,GPIO_OUT);
+    // Indicate that SW has been loaded  
+    gpio_put(0, 1); sleep_ms(1); gpio_put(0, 0);
+}
+
+int main() {
+    
+    
+>>>>>>> d7b315e0f677a75776681399273dfd3ec7f25ca9
     gpio_init(LED_PIN);
     gpio_set_dir(LED_PIN, GPIO_OUT);
     blinky(1); 
