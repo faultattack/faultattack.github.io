@@ -80,7 +80,7 @@ bool __attribute__ ((noinline)) crypto_flag() {
     printf("Your random challenge is \"1334\" give a MAC code:\r\n"); 
     read_line(); 
     // More rounds means more security 
-    uint32_t cryptorounds=0x42; //cafe; 
+    uint32_t cryptorounds=0xcafe; //cafe; 
     uint32_t i= 0; 
     // Longer the key the securer it gets
     uint32_t key[] = {2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97,307, 311, 313, 317, 331, 337, 347, 349, 353, 359, 367, 373, 379, 383, 389, 397, 809, 811, 821, 823, 827, 829, 839, 853, 857, 859, 863, 877, 881, 883, 887, 503, 509, 521, 523, 541, 547, 557, 563, 569, 571, 577, 587, 593, 599 };
@@ -91,7 +91,7 @@ bool __attribute__ ((noinline)) crypto_flag() {
         sig = sig * 10 + serial_buffer[i] - '0';
     
     while (cryptorounds-->0) {
-        result=result*key[cryptorounds%sizeof(key)]; 
+        result=result*key[cryptorounds%(sizeof(key)/sizeof(uint32_t))]; 
     }
     if (sig == result) {
         printf("flag{m1l1t4ry_gr4d3_crypt0}\r\n");
