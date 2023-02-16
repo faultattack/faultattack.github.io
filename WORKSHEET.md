@@ -47,7 +47,11 @@ Inspecting the source may give you some idea where to attack. Not all of the obv
 
 For a list of typical fault attack effects there is an excellent list in the [NCC Group blog](https://research.nccgroup.com/2021/07/07/an-introduction-to-fault-injection-part-1-3/). 
 
-Having two USB-ports and micro-USB cables allows you to connect both to  PicoEMP and flag-target at the same time. This is not strictly necessary but will make things much easier. You can try triggering a pulse and a simultaneous action of flag-target via USB-serial. 
+Having two USB-ports and micro-USB cables allows you to connect both to  PicoEMP and flag-target at the same time. This is not strictly necessary but will make things much easier. 
+
+If you have two cables you can try triggering a pulse and a simultaneous action of flag-target via USB-serial. It might get you one of the flags if you're lucky. The provided example is in Python, and you could have better realtime properties by writing the serial communication in Rust, C, Golang or some other good programming language (C++ is not a good language but may also work). Anyways you probably want to use fast trigger instead. 
+
+Fast trigger you can 
 
 
 Fault Model Construction 
