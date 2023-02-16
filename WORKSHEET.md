@@ -49,9 +49,9 @@ For a list of typical fault attack effects there is an excellent list in the [NC
 
 Having two USB-ports and micro-USB cables allows you to connect both to  PicoEMP and flag-target at the same time. This is not strictly necessary but will make things much easier. 
 
-If you have two cables you can try triggering a pulse and a simultaneous action of flag-target via USB-serial. It might get you one of the flags if you're lucky. The provided example is in Python, and you could have better realtime properties by writing the serial communication in Rust, C, Golang or some other good programming language (C++ is not a good language but may also work). Anyways you probably want to use fast trigger instead. 
+If you have two cables you can try triggering a pulse and a simultaneous action of flag-target via USB-serial. It might get you one of the flags if you're lucky. The provided example is in Python, and you could have better realtime properties by writing the serial communication in Rust, C, Golang or some other language. Anyways, you probably want to use fast trigger instead. 
 
-Fast trigger you can 
+In the PicoEMP UI you can configure the fast trigger with a set delay in cycles. We use the target GPIO 0 to give us a pulse. There are two trigger points in the software and you can add more if you like to. Hypothetically we could solder our trigger wire to target USB pads or have some other device inspect USB traffic but that would be too much work for our short session. 
 
 
 Fault Model Construction 
@@ -59,15 +59,13 @@ Fault Model Construction
 
 There is also a binary called glitch_detect. It runs loops and tries to detect abnormal behavior. It reports findings at every glitch detection and has a keep alive every now and then, until it hangs. 
 
-- Look for a pre-known sensitive spot the behavior it has 
-- Look for a spot that has a specific impact (e.g. logic glitch)
-
-What are the most common effects for this device? 
+- Look for a pre-known sensitive spot and identify the fault behavior
+- Look for a spot that has a specific impact (e.g. logic glitch, SRAM glitch)
 
 
 
 Badge Target 
 ============
 
-This device is not really that susceptible to EMFI. It runs really slowly (about 1Mhz) so timing would not be an issue but we would likely need much more power to inject a successful fault. Arduino Nano, which is built using the same CPU, glitches fine but the Disobey badge does not. Go figure. You can try to find a spot on it where it does something. It should have at least one spot that gives a reaction. 
+This device is not really that susceptible to EMFI. It runs really slowly (about 1Mhz) so timing would not be an issue but we would likely need much more power to inject a successful fault. Arduino Nano, which is built using the same CPU, glitches fine but the Disobey badge does not. Go figure. You can try to find a spot on it where it does something. It should have at least one spot that is not totally mute. 
 
