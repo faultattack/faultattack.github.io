@@ -42,9 +42,12 @@ There are multiple possibilities for fault injection in this binary:
     - Memory loads & stores 
     - Random corruption / function fall through 
 
-Inspecting the source may give you some idea where to attack. Not all of the obvious looking stuff in the c-source can be attacked successfully. The elf should confirm your guesses once you inspect it with IDA/Ghidra/Cutter.
 
-Having two USB-ports and micro-USB cables allows you to connect both to  PicoEMP and flag-target at the same time. You can try triggering a pulse and a simultaneous action of flag-target via USB-serial. 
+Inspecting the source may give you some idea where to attack. Not all of the obvious looking stuff in the c-source can be attacked successfully. The elf should confirm your guesses once you inspect it with IDA/Ghidra/Cutter. 
+
+For a list of typical fault attack effects there is an excellent list in the [NCC Group blog](https://research.nccgroup.com/2021/07/07/an-introduction-to-fault-injection-part-1-3/). 
+
+Having two USB-ports and micro-USB cables allows you to connect both to  PicoEMP and flag-target at the same time. This is not strictly necessary but will make things much easier. You can try triggering a pulse and a simultaneous action of flag-target via USB-serial. 
 
 
 Fault Model Construction 
@@ -62,5 +65,5 @@ What are the most common effects for this device?
 Badge Target 
 ============
 
-This device is not really that susceptible to EMFI. It runs really slowly (about 1Mhz) so timing would not be an issue but we would likely need much more power to inject a successful fault. Arduino Nano, which is built using the same CPU, glitches fine but the Disobey badge does not. Go figure. You can try to find a spot on it where it does something. It should have at least one spot that gives a reaction. Do 
+This device is not really that susceptible to EMFI. It runs really slowly (about 1Mhz) so timing would not be an issue but we would likely need much more power to inject a successful fault. Arduino Nano, which is built using the same CPU, glitches fine but the Disobey badge does not. Go figure. You can try to find a spot on it where it does something. It should have at least one spot that gives a reaction. 
 
