@@ -4,7 +4,7 @@ Install cmake and arm cross compiler.
 Project uses arm-none-eabi-gcc by default. 
 
 
-Clone this git repo and within the repository:  
+Clone this git repo and within this firmwares folder in the repository:  
 
 mkdir build 
 
