@@ -21,6 +21,8 @@ Notes for Hands-on Attendees
 Here is a short guide that gets you started
 https://faultattack.github.io/WORKSHEET.html
 
+Rest of the content is available at https://github.com/faultattack/faultattack.github.io/
+
 Before the event info: 
 ----------------------
 Bring your own laptop!
